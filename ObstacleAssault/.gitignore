@@ -72,3 +72,8 @@ Plugins/*/Intermediate/*
 
 # Cache files for the editor to use
 DerivedDataCache/*
+
+# Marketplace content
+Content/BlockGame/*
+Content/Hour_of_Code/*
+Content/LearningKit*
