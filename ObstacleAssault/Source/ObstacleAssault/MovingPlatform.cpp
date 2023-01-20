@@ -23,8 +23,10 @@ void AMovingPlatform::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
 
-	MyVector.Y++;
+	FVector CurrentLocation = GetActorLocation();
 
-	SetActorLocation(MyVector);
+	CurrentLocation.Y++;
+
+	SetActorLocation(CurrentLocation);
 }
 
